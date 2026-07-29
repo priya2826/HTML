@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advertisement - SmartWatch Pro X</title>
+</head>
+<body bgcolor="#f4f4f4">
+
+    <center>
+        <h1 style="color:blue;">⌚ SMARTWATCH PRO X</h1>
+
+        <img src="smartwatch.jpg" alt="SmartWatch" width="400" height="250">
+
+        <h2 style="color:red;">Special Offer - 30% OFF!</h2>
+
+        <p><b>Stay Connected. Stay Healthy. Stay Ahead.</b></p>
+
+        <ul style="display:inline-block; text-align:left;">
+            <li>Heart Rate Monitoring</li>
+            <li>Sleep Tracking</li>
+            <li>7-Day Battery Life</li>
+            <li>Waterproof Design</li>
+            <li>Call & Message Notifications</li>
+        </ul>
+
+        <h3>Price: ₹4,999 Only</h3>
+        <p><strike>₹7,199</strike></p>
+
+        <p><b>Track Your Fitness Goals Anytime, Anywhere!</b></p>
+
+        <button style="background-color:green; color:white; padding:10px;">
+            Buy Now
+        </button>
+
+        <hr>
+
+        <p>📞 Contact: +91 98765 43210</p>
+        <p>🌐 Website: www.smartwatchprox.com</p>
+
+        <h3 style="color:orange;">Hurry! Limited Time Offer!</h3>
+    </center>
+
+</body>
+</html>
