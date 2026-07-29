@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Shopping Website</title>
+    <script>
+        function showMessage() {
+            alert("Welcome to Our Online Shopping Website!");
+        }
+
+        function validateForm() {
+            var name = document.getElementById("name").value;
+
+            if(name == "") {
+                alert("Please enter your name");
+                return false;
+            }
+
+            alert("Thank You for Contacting Us!");
+            return true;
+        }
+    </script>
+</head>
+
+<frameset rows="15%,85%">
+    
+    <frame src="data:text/html,
+    <html>
+    <body bgcolor='lightblue' onload='alert(`Welcome to Online Shopping Website`)'>
+    <center>
+    <h1>🛒 ONLINE SHOPPING WEBSITE</h1>
+    <h3>Shop Smart, Shop Easy!</h3>
+    </center>
+    </body>
+    </html>">
+
+    <frameset cols="20%,80%">
+
+        <frame src="data:text/html,
+        <html>
+        <body bgcolor='lightyellow'>
+        <h3>Categories</h3>
+        <ul>
+        <li>Fashion</li>
+        <li>Electronics</li>
+        <li>Beauty Products</li>
+        <li>Home & Living</li>
+        </ul>
+        </body>
+        </html>">
+
+        <frame src="data:text/html,
+        <html>
+        <body bgcolor='white'>
+        
+        <h2>Welcome to Our Online Shopping Store</h2>
+        
+        <p>
+        Buy the latest Fashion, Electronics, Beauty Products and Home Essentials at affordable prices.
+        </p>
+
+        <h3>Product Image</h3>
+        <img src='https://via.placeholder.com/300x200' alt='Shopping Product'>
+
+        <h3>Product List</h3>
+        <ol>
+            <li>Smart Watch</li>
+            <li>Headphones</li>
+            <li>Backpack</li>
+            <li>Mobile Cover</li>
+        </ol>
+
+        <h3>Product Price Table</h3>
+
+        <table border='1' cellpadding='10'>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Smart Watch</td>
+                <td>₹1999</td>
+            </tr>
+            <tr>
+                <td>Headphones</td>
+                <td>₹1499</td>
+            </tr>
+            <tr>
+                <td>Backpack</td>
+                <td>₹999</td>
+            </tr>
+        </table>
+
+        <h3>Sample Audio</h3>
+        <audio controls>
+            <source src='sample.mp3' type='audio/mp3'>
+        </audio>
+
+        <h3>Sample Video</h3>
+        <video width='320' controls>
+            <source src='sample.mp4' type='video/mp4'>
+        </video>
+
+        <h3>Website Link</h3>
+        <a href='https://www.amazon.in' target='_blank'>Visit Amazon</a>
+
+        <h3>Contact Form</h3>
+
+        <form onsubmit='alert(`Form Submitted Successfully!`)'>
+            Name:
+            <input type='text'><br><br>
+
+            Email:
+            <input type='email'><br><br>
+
+            Message:
+            <textarea rows='4' cols='30'></textarea><br><br>
+
+            <input type='submit' value='Submit'>
+        </form>
+
+        </body>
+        </html>">
+
+    </frameset>
+
+</frameset>
+
+</html>
