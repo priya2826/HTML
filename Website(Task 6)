@@ -1,128 +1,207 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Online Shopping Website</title>
-    <script>
-        function showMessage() {
-            alert("Welcome to Our Online Shopping Website!");
-        }
-
-        function validateForm() {
-            var name = document.getElementById("name").value;
-
-            if(name == "") {
-                alert("Please enter your name");
-                return false;
-            }
-
-            alert("Thank You for Contacting Us!");
-            return true;
-        }
-    </script>
+    <title>Movie Review Website</title>
 </head>
+<body bgcolor="lightyellow">
 
-<frameset rows="15%,85%">
-    
-    <frame src="data:text/html,
-    <html>
-    <body bgcolor='lightblue' onload='alert(`Welcome to Online Shopping Website`)'>
     <center>
-    <h1>🛒 ONLINE SHOPPING WEBSITE</h1>
-    <h3>Shop Smart, Shop Easy!</h3>
+        <h1>🎬 Movie Review Website</h1>
+        <p><b>Read Reviews | Rate Movies | Watch Trailers</b></p>
+        <hr width="80%">
     </center>
-    </body>
-    </html>">
 
-    <frameset cols="20%,80%">
+    <h2>Featured Movie</h2>
 
-        <frame src="data:text/html,
-        <html>
-        <body bgcolor='lightyellow'>
-        <h3>Categories</h3>
-        <ul>
-        <li>Fashion</li>
-        <li>Electronics</li>
-        <li>Beauty Products</li>
-        <li>Home & Living</li>
-        </ul>
-        </body>
-        </html>">
+    <img src="https://via.placeholder.com/250x350" alt="Movie Poster" width="250">
 
-        <frame src="data:text/html,
-        <html>
-        <body bgcolor='white'>
-        
-        <h2>Welcome to Our Online Shopping Store</h2>
-        
-        <p>
-        Buy the latest Fashion, Electronics, Beauty Products and Home Essentials at affordable prices.
-        </p>
+    <h3>Movie Name: Leo</h3>
 
-        <h3>Product Image</h3>
-        <img src='https://via.placeholder.com/300x200' alt='Shopping Product'>
+    <p>
+        <b>Genre:</b> Action, Thriller <br>
+        <b>Director:</b> Lokesh Kanagaraj <br>
+        <b>Hero:</b> Vijay <br>
+        <b>Release Year:</b> 2023 <br>
+        <b>Rating:</b> ⭐⭐⭐⭐☆ (4/5)
+    </p>
 
-        <h3>Product List</h3>
-        <ol>
-            <li>Smart Watch</li>
-            <li>Headphones</li>
-            <li>Backpack</li>
-            <li>Mobile Cover</li>
-        </ol>
+    <h3>Review</h3>
+    <p>
+        Leo is an action-packed thriller with excellent performances,
+        powerful background music, and stunning visuals. The screenplay
+        keeps the audience engaged from beginning to end.
+    </p>
 
-        <h3>Product Price Table</h3>
+    <h3>Trailer</h3>
+    <a href="https://www.youtube.com" target="_blank">
+        Watch Trailer
+    </a>
 
-        <table border='1' cellpadding='10'>
+    <hr>
+
+    <h2>User Rating</h2>
+
+    <form>
+        Name:<br>
+        <input type="text"><br><br>
+
+        Email:<br>
+        <input type="email"><br><br>
+
+        Rating:<br>
+        <select>
+            <option>⭐ 1</option>
+            <option>⭐⭐ 2</option>
+            <option>⭐⭐⭐ 3</option>
+            <option selected>⭐⭐⭐⭐ 4</option>
+            <option>⭐⭐⭐⭐⭐ 5</option>
+        </select>
+
+        <br><br>
+
+        Review:<br>
+        <textarea rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit Review">
+        <input type="reset" value="Clear">
+    </form>
+
+    <hr>
+
+    <center>
+        <h3>Top Rated Movies</h3>
+        <table border="1" cellpadding="8">
             <tr>
-                <th>Product</th>
-                <th>Price</th>
+                <th>Movie</th>
+                <th>Genre</th>
+                <th>Rating</th>
             </tr>
             <tr>
-                <td>Smart Watch</td>
-                <td>₹1999</td>
+                <td>Leo</td>
+                <td>Action</td>
+                <td>4/5</td>
             </tr>
             <tr>
-                <td>Headphones</td>
-                <td>₹1499</td>
+                <td>Jailer</td>
+                <td>Action</td>
+                <td>4.5/5</td>
             </tr>
             <tr>
-                <td>Backpack</td>
-                <td>₹999</td>
+                <td>Master</td>
+                <td>Action</td>
+                <td>4/5</td>
             </tr>
         </table>
 
-        <h3>Sample Audio</h3>
-        <audio controls>
-            <source src='sample.mp3' type='audio/mp3'>
-        </audio>
+        <br>
 
-        <h3>Sample Video</h3>
-        <video width='320' controls>
-            <source src='sample.mp4' type='video/mp4'>
-        </video>
+        <p>&copy; 2026 Movie Review Website. All Rights Reserved.</p>
+    </center>
 
-        <h3>Website Link</h3>
-        <a href='https://www.amazon.in' target='_blank'>Visit Amazon</a>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Review Website</title>
+</head>
+<body bgcolor="lightyellow">
 
-        <h3>Contact Form</h3>
+    <center>
+        <h1>🎬 Movie Review Website</h1>
+        <p><b>Read Reviews | Rate Movies | Watch Trailers</b></p>
+        <hr width="80%">
+    </center>
 
-        <form onsubmit='alert(`Form Submitted Successfully!`)'>
-            Name:
-            <input type='text'><br><br>
+    <h2>Featured Movie</h2>
 
-            Email:
-            <input type='email'><br><br>
+    <img src="https://via.placeholder.com/250x350" alt="Movie Poster" width="250">
 
-            Message:
-            <textarea rows='4' cols='30'></textarea><br><br>
+    <h3>Movie Name: Leo</h3>
 
-            <input type='submit' value='Submit'>
-        </form>
+    <p>
+        <b>Genre:</b> Action, Thriller <br>
+        <b>Director:</b> Lokesh Kanagaraj <br>
+        <b>Hero:</b> Vijay <br>
+        <b>Release Year:</b> 2023 <br>
+        <b>Rating:</b> ⭐⭐⭐⭐☆ (4/5)
+    </p>
 
-        </body>
-        </html>">
+    <h3>Review</h3>
+    <p>
+        Leo is an action-packed thriller with excellent performances,
+        powerful background music, and stunning visuals. The screenplay
+        keeps the audience engaged from beginning to end.
+    </p>
 
-    </frameset>
+    <h3>Trailer</h3>
+    <a href="https://www.youtube.com" target="_blank">
+        Watch Trailer
+    </a>
 
-</frameset>
+    <hr>
 
+    <h2>User Rating</h2>
+
+    <form>
+        Name:<br>
+        <input type="text"><br><br>
+
+        Email:<br>
+        <input type="email"><br><br>
+
+        Rating:<br>
+        <select>
+            <option>⭐ 1</option>
+            <option>⭐⭐ 2</option>
+            <option>⭐⭐⭐ 3</option>
+            <option selected>⭐⭐⭐⭐ 4</option>
+            <option>⭐⭐⭐⭐⭐ 5</option>
+        </select>
+
+        <br><br>
+
+        Review:<br>
+        <textarea rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit Review">
+        <input type="reset" value="Clear">
+    </form>
+
+    <hr>
+
+    <center>
+        <h3>Top Rated Movies</h3>
+        <table border="1" cellpadding="8">
+            <tr>
+                <th>Movie</th>
+                <th>Genre</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td>Leo</td>
+                <td>Action</td>
+                <td>4/5</td>
+            </tr>
+            <tr>
+                <td>Jailer</td>
+                <td>Action</td>
+                <td>4.5/5</td>
+            </tr>
+            <tr>
+                <td>Master</td>
+                <td>Action</td>
+                <td>4/5</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <p>&copy; 2026 Movie Review Website. All Rights Reserved.</p>
+    </center>
+
+</body>
 </html>
