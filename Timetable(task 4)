@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Timetable</title>
+</head>
+<body bgcolor="#f5f5f5">
+
+<center>
+    <h1 style="color:darkblue;">B.Sc Computer Science - Class Timetable</h1>
+
+    <table border="2" cellpadding="15" cellspacing="5">
+        <tr bgcolor="#4CAF50">
+            <th>Day / Time</th>
+            <th>9:00 - 10:00</th>
+            <th>10:00 - 11:00</th>
+            <th>11:00 - 12:00</th>
+            <th>12:00 - 1:00</th>
+            <th>1:00 - 2:00</th>
+            <th>2:00 - 3:00</th>
+            <th>3:00 - 4:00</th>
+        </tr>
+
+        <tr>
+            <th bgcolor="#FFD700">Monday</th>
+            <td bgcolor="#ADD8E6">Python</td>
+            <td bgcolor="#90EE90">DBMS</td>
+            <td bgcolor="#FFA07A">Java</td>
+            <td rowspan="5" bgcolor="#D3D3D3"><b>LUNCH BREAK</b></td>
+            <td bgcolor="#FFB6C1">Mathematics</td>
+            <td colspan="2" bgcolor="#E6E6FA">Lab</td>
+        </tr>
+
+        <tr>
+            <th bgcolor="#FFD700">Tuesday</th>
+            <td bgcolor="#90EE90">DBMS</td>
+            <td bgcolor="#ADD8E6">Python</td>
+            <td bgcolor="#FFB6C1">Mathematics</td>
+            <td colspan="2" bgcolor="#E6E6FA">Lab</td>
+            <td bgcolor="#FFA07A">Java</td>
+        </tr>
+
+        <tr>
+            <th bgcolor="#FFD700">Wednesday</th>
+            <td bgcolor="#FFA07A">Java</td>
+            <td bgcolor="#ADD8E6">Python</td>
+            <td bgcolor="#90EE90">DBMS</td>
+            <td bgcolor="#FFB6C1">Mathematics</td>
+            <td colspan="2" bgcolor="#E0FFFF">Web Technology</td>
+        </tr>
+
+        <tr>
+            <th bgcolor="#FFD700">Thursday</th>
+            <td colspan="2" bgcolor="#E6E6FA">Programming Lab</td>
+            <td bgcolor="#ADD8E6">Python</td>
+            <td bgcolor="#90EE90">DBMS</td>
+            <td bgcolor="#FFA07A">Java</td>
+            <td bgcolor="#FFB6C1">Mathematics</td>
+        </tr>
+
+        <tr>
+            <th bgcolor="#FFD700">Friday</th>
+            <td bgcolor="#FFB6C1">Mathematics</td>
+            <td bgcolor="#90EE90">DBMS</td>
+            <td bgcolor="#ADD8E6">Python</td>
+            <td colspan="3" bgcolor="#FFFACD">Project Work</td>
+        </tr>
+    </table>
+</center>
+
+</body>
+</html>
